@@ -8,3 +8,5 @@ This repo contains:
 5) Davidson:  an implementation in fortran 90 of the Davidson algorithm, used to find initial few eigenvector and eigenvalues of a Huge matrix (dimension >> 1000).
 
 All this programs, with the possible exception of the Cholensky Decomposition, must be compiled with a reference to the blas, lapack libraries: "gfortran [name_program.f90] -o [name] -lblas -llapack" 
+
+BONUS: There is a program that works with second quantization: fils a binary vector that rapresents the spin-orbitalis using operators of creation and destruction.
