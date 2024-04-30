@@ -1,4 +1,4 @@
-program Seconda_Quantizzazione
+program Second_Quantization
     implicit none
 
 !   pos=position to occupy - i=counter- n=number of eletrons counted - segno=factor filling order
