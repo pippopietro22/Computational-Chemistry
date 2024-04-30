@@ -56,7 +56,7 @@ program CG
                         r1(i)=h(i)-b(i)
                 end do
                 !
-                !Calculating Convergence Factor
+                !Calculating residual
                 !
                 do i=1,n
                         tau=r1(i)**2
