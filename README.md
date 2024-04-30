@@ -7,3 +7,5 @@ This repo contains:
 4) Conjugate Gradient: an implementation in fortran 90 of the Conjugate Gradient algorithm, used to solve linear systems. There is another file (Conjuggate Gradient - Preconditioned) which                                implements the same algorithm but with a difference: there's a preconditioning of the vector used to find the solution to the linear system. This improves the efficency of   
                        the algorithm.
 5) Davidson:  an implementation in fortran 90 of the Davidson algorithm, used to find initial few eigenvector and eigenvalues of a Huge matrix (dimension >> 1000).
+
+All this programs, with the possible exception of the Cholensky Decomposition, must be compiled with a reference to the blas, lapack libraries: "gfortran [name_program.f90] -o [name] -lblas -llapack" 
